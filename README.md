@@ -32,11 +32,14 @@ tributo_api/
 ├── requirements.txt
 └── README.md
 
-- main.py → definição das rotas e inicialização da aplicação  
-- database.py → configuração do banco e sessão  
-- models.py → modelos ORM  
-- schemas.py → validação de dados com Pydantic  
-- services.py → regras de negócio (cálculo tributário)
+
+### 📌 Descrição dos Arquivos
+
+main.py → definição das rotas e inicialização da aplicação  
+database.py → configuração do banco de dados e sessão SQLAlchemy  
+models.py → definição dos modelos ORM  
+schemas.py → validação e serialização de dados com Pydantic  
+services.py → regras de negócio (cálculo tributário)
 
 ---
 
@@ -128,3 +131,4 @@ Essa organização facilita manutenção, escalabilidade e testes.
 ## 👨‍💻 Autor
 
 Mateus Rachadel Lohn
+
