@@ -20,6 +20,7 @@ O sistema permite cadastrar empresas, realizar simulações com base no faturame
 
 ## 📂 Estrutura do Projeto
 
+```bash
 tributo_api/
 │
 ├── app/
@@ -31,15 +32,15 @@ tributo_api/
 │
 ├── requirements.txt
 └── README.md
-
+```
 
 ### 📌 Descrição dos Arquivos
 
-main.py → definição das rotas e inicialização da aplicação  
-database.py → configuração do banco de dados e sessão SQLAlchemy  
-models.py → definição dos modelos ORM  
-schemas.py → validação e serialização de dados com Pydantic  
-services.py → regras de negócio (cálculo tributário)
+- **main.py** → definição das rotas e inicialização da aplicação  
+- **database.py** → configuração do banco de dados e sessão SQLAlchemy  
+- **models.py** → definição dos modelos ORM  
+- **schemas.py** → validação e serialização de dados com Pydantic  
+- **services.py** → regras de negócio (cálculo tributário)
 
 ---
 
@@ -131,4 +132,5 @@ Essa organização facilita manutenção, escalabilidade e testes.
 ## 👨‍💻 Autor
 
 Mateus Rachadel Lohn
+
 
